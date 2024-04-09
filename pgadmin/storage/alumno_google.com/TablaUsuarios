@@ -1,0 +1,7 @@
+COMMIT;
+UPDATE "users"
+SET
+ "role" = 'Cristo'
+WHERE "name" = 'Jesus';
+SELECT * FROM public.users
+ORDER BY id DESC LIMIT 100;
